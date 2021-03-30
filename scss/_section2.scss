@@ -1,0 +1,38 @@
+.container2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    padding: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/background3.png);
+}
+.textbox-2 {
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 26px;
+    align-items: center;
+    color: #FFFFFF;
+    background: #232323;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    h4 {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 20px;
+        text-transform: uppercase;  
+    }
+    p {
+        font-size: 16px;
+    }
+    button {
+        @extend %btn
+    }
+}

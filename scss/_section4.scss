@@ -1,0 +1,45 @@
+.container4 {
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    padding: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/background2.png);
+
+    h2 {
+        font-family: 'Aleo', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 26px;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+.box {
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 5%;
+    line-height: 26px;
+    align-items: center;
+    color: #FFFFFF;
+    h3 {
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    p {
+        font-size: 14px;
+        i {
+           color: #5474FD;
+        }
+    }
+
+    .textbox-4 {
+        background: #333333;
+        padding: 10px;
+    }
+}

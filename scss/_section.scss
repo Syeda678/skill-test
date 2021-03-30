@@ -1,7 +1,47 @@
-.bg-img {
+.container1 {
     display: flex;
-    flex-direction: column;
-    height: 1000px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 10%;
     background-repeat: no-repeat;
     background-image: url(../images/background1.png);
+}
+
+.textbox-1 {
+    width: 560px;
+    h3 {
+        font-family: 'Aleo', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 26px;
+        /* identical to box height, or 72% */
+
+        display: flex;
+        align-items: center;
+
+        color: #FFFFFF;
+    }
+    p {
+        font-family: 'Josefin Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+        display: flex;
+        align-items: center;
+        letter-spacing: 1.6px;
+
+        color: #E8E8E8;
+    }
+    button {
+        @extend %btn
+    }
+}
+
+.image {
+    width: min-content;
 }
