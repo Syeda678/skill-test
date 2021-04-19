@@ -4,6 +4,7 @@
     align-items: center;
     height: 100%;
     padding: 10%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../images/background1.png);
 }
@@ -35,7 +36,7 @@
         align-items: center;
         letter-spacing: 1.6px;
 
-        color: #E8E8E8;
+        color: #FFFFFF;
     }
     button {
         @extend %btn
@@ -44,4 +45,17 @@
 
 .image {
     width: min-content;
+}
+
+@media screen and (max-width: 610px) {
+    .container1 {
+    flex-wrap: wrap;
+    }
+    .image {
+        padding: 5px 0px;
+        width: 100%;
+        .image-1 {
+            max-width: 100%;
+        }
+    }
 }

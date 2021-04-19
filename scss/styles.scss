@@ -146,3 +146,22 @@ body {
         }
     }
 }
+@media screen and (max-width: 610px) {
+    .text-box {
+        h2 {
+            font-size: xx-large;
+        }
+        p {
+            font-size: inherit;
+        }
+        .search-container {
+            width: 100%;
+            input {
+                width: 100%;
+            }
+        }
+    }
+    .nav {
+        justify-content: center;
+    }
+}

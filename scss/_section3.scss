@@ -37,3 +37,8 @@
         @extend %btn
     }
 }
+@media screen and (max-width: 610px) {
+    .textbox-3 {
+        width: 100%;
+    }
+}

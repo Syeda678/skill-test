@@ -32,20 +32,33 @@
         &:hover {
             background: rgb(182, 182, 182);
         }
+        a {
+            font-family: "Aleo", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: unset;
+            font-size: 14px;
+            line-height: 26px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-transform: uppercase;
+            margin: 10px;
+            color: #FFFFFF;
+        }
     }
-
-    a {
-        font-family: "Aleo", sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        text-decoration: unset;
-        font-size: 14px;
-        line-height: 26px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-transform: uppercase;
-        margin: 10px;
-        color: #FFFFFF;
+}
+@media screen and (max-width: 610px) {
+    .menu ul {
+        width: max-content;
+        display: block;
+        li {
+            a {
+                display: block;
+                line-height: unset;
+                margin: unset;
+                font-size: 12px;
+            }
+        }
     }
 }
